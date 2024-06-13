@@ -1,0 +1,270 @@
+﻿题目 1
+已知 f = lambda x,y : x+y，则 f(4,3)的值是________。
+
+选项：
+
+A. 12
+B. 4
+C. 43
+D. 7
+题目 2
+s1 = set(['a', 'b', 'ab', 'ba', 'a', 'a', 'b']) print(len(s1)) 结果为________。
+
+选项：
+
+A. 5
+B. 3
+C. 2
+D. 4
+题目 3
+设有函数定义： def fun(a = 0): print(a * 100) 则以下执行会出错的语句是________。
+
+选项：
+
+A. fun(30)+5
+B. fun(30)
+C. fun()
+D. fun(30+5)
+题目 4
+表达式 sorted(random.sample(range(5), 5)) 的值为____。
+
+选项：
+
+A. [0, 1, 2, 3]
+B. [0, 1, 2, 3, 4]
+C. [1, 2, 3, 4, 5]
+D. [0, 1, 2, 3, 4, 5]
+题目 5
+s={ 'a':{ 0:'no', 1:{'flippers':{0: 'no', 1: 'maybe'} } }, 'b':{} } print(s['a'][0]) 程序输出为________。
+
+选项：
+
+A. {0:'no',1:{'flippers':{0: 'no', 1: 'maybe'}}}
+B. 'b'
+C. 'a'
+D. 'no'
+题目 6
+以下程序的输出结果是： ls = list(set('jzzszyj')) ls.sort() print(ls)
+
+选项：
+
+A. ['j', 's', 'y', 'z']
+B. ['j', 'j', 's', 'y', 'z', 'z', 'z']
+C. ['j', 'z', 'z', 's', 'z', 'y', 'j']
+D. ['z', 'j', 's', 'y']
+题目 7
+执行以下语句后，x和y的值分别为（ ）。 x=1 y=2 x,y=y,x
+
+选项：
+
+A. 1 2
+B. 1 1
+C. 2 1
+D. 2 2
+题目 8
+运行以下程序，输出结果的是( ) print(" love “.join(["Everyday","Yourself","Python",]))
+
+选项：
+
+A. Everyday love Yourself
+B. Everyday love Yourself love Python
+C. Everyday love Python
+D. love Yourself love Python
+题目 9
+表达式 [i for i in range(10) if i>8] 的值为________________。
+
+选项：
+
+A. [8, 9,10]
+B. [9]
+C. [9, 10]
+D. [7]
+题目 10
+设d1={"Glass":5, "Color":8}，则执 d1["Paper"] = d1.get("Paper",0)+1 后，字典d1的值为_________。
+
+选项：
+
+A. d1={"Glass":5, "Color":8, "Paper":1}
+B. d1={"Glass":5, "Color":8}
+C. 出错
+D. d1={"Glass":5, "Color":8, "Paper":0}
+题目 11
+下列属于math库中的数学函数的是( )。
+
+选项：
+
+A. time()
+B. round()
+C. random()
+D. sqrt()
+题目 12
+执行以下代码，运行结果 def split(s): return s.split('a') s = "Happy birthday to you!" print(split(s))
+
+选项：
+
+A. "Happy birthday to you!"
+B. 运行出错
+C. ['Happy', 'birthday', 'to', 'you!']
+D. ['H', 'ppy birthd', 'y to you!']
+题目 13
+对于如下的函数定义，执行 f("12345")的结果分别是________。 def f(s): if(s == s[::-1]): print("Nice") else: print("Not very good")
+
+选项：
+
+A. Nice Not very good
+B. Not very good
+C. None
+D. Nice
+题目 14
+语句x=input()执行时,如果从键盘输入12并按回车键,则x的值是( )。
+
+选项：
+
+A. 1 2
+B. 1.00E+02
+C. "12"
+D. 12
+题目 15
+下列代码运行的结果是（ ）。 x = 3 if x<=1: y = 2 * x print(y)
+
+选项：
+
+A. -1
+B. 6
+C. 0
+D. 代码运行报"y未定义"错
+题目 16
+已知 x = [3,5,7], 那么执行语句 x[1:] = [2] 之后，x的值为( )。
+
+选项：
+
+A. [3,2]
+B. [3,2,2,7]
+C. [3,2,7]
+D. [3,2,2]
+题目 17
+下述while循环执行的次数为( )： k = 1000 while k > 1: print(k) k = k/2
+
+选项：
+
+A. 10
+B. 9
+C. 11
+D. 100
+题目 18
+表达式 {1, 2, 3} & {3, 4, 5} 的值为______________。
+
+选项：
+
+A. {1,2,3,3,4,5}
+B. {3}
+C. {1,2,3,4,5}
+D. {1,2}
+题目 19
+有函数定义如下： def test(x): y=2*x return y 请问以下调用正确的是___________。
+
+选项：
+
+A. d={'one':1,'two':2} print(test(d))
+B. z=test(3,5)
+C. test()
+D. ls=[1,2] print(test(ls))
+题目 20
+已知列表lst1=[2,1,2,3]，lst2=lst1.copy()，则执行语句lst2.remove(2)后，lst1的值为____________。
+
+选项：
+
+A. [1,2,3]
+B. [1,3]
+C. [2,1,3]
+D. [2,1,2,3]
+题目 21
+以下的函数定义中，错误的是（）。
+
+选项：
+
+A. def vfunc(a=3，b=2)：
+B. def vfunc(a=3，b)：
+C. def vfunc(a，b=2)：
+D. def vfunc(a，b)：
+题目 22
+已知元组t=(1,2,3)，则在交互环境下执行以下哪个不会报错？（ ）
+
+选项：
+
+A. t.sort()
+B. t.remove(2)
+C. t.index(2)
+D. t.append(4)
+题目 23
+已知 x = {1:2, 2:3, 3:4}，那么表达式 sum(x.values()) 的值为_________。
+
+选项：
+
+A. 3
+B. 6
+C. 2
+D. 9
+题目 24
+*依次执行以下两条语句后，lst的结果是________。 lst = [3, 2, 1] lst.append([3,2,1]2)
+
+选项：
+
+A. [3, 2, 1, [3, 2, 1, 3, 2, 1]]
+B. [3, 2, 1, 3, 2, 1]
+C. [3, 2, 1, 3, 2, 1, 3, 2, 1]
+D. [3, 2, 1, [3, 2, 1],[3, 2, 1]]
+题目 25
+以下代码的输出结果是（）。 print(1.5+2.1=3.6)
+
+选项：
+
+A. 报语法错误
+B. True
+C. 3.6
+D. 1.5+2.1==3.6
+题目 26
+设s="Happy New Year"，则s[3:8]的值为（ ）
+
+选项：
+
+A. ppy Ne'
+B. 'py Ne'
+C. 'ppy N'
+D. 'py New'
+题目 27
+以下不符合Python标识符命名规则的是（ ）。
+
+选项：
+
+A. 假
+B. name
+C. 3abc
+D. _import
+题目 28
+对于一个列表aList和一个元组bTuple，以下函数调用错误的选项是哪一个？ （ ）
+
+选项：
+
+A. bTuple.sort()
+B. sorted(aList)
+C. aList.sort()
+D. sorted(bTuple)
+题目 29
+执行以下代码: x = 3 y = z = 0 if x = y + z: print('AA') else: print('BB')
+
+选项：
+
+A. 没有错误,但没有输出结果
+B. 有语法错误,不能执行
+C. 输出 AA
+D. 输出 BB
+题目 30
+设s="Python Programming"，那么print(s[-5:])的结果是（ ）
+
+选项：
+
+A. mmin
+B. Python
+C. Pytho
+D. mming
