@@ -12,5 +12,5 @@ for i in range(1,n-1):
     a = b
     b = c
 
-s_str = [str(num) for num in s]
+s_str = [str(num) for num in s] #列表推导式
 print(','.join(s_str))

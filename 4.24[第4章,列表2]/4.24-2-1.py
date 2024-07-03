@@ -20,5 +20,6 @@ for i in range(1,n-1):
 lst=s.split(',') #
 for str1 in lst: #
     lst_int.append(int(str1)) #
+# lst_int=[int(a) for a in lst]
 print(lst_int) #
 # 在4.03-2-1上修改而来
